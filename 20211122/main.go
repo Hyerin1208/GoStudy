@@ -5,7 +5,10 @@
 // go언어는 패키지로 시작하고 package main은 프로그램 시작점이 있는 패키지다.
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"unsafe"
+)
 
 /*
 클래스 X  메서드를 가지는 구조체응 지원
@@ -126,3 +129,4 @@ func main() {
 	fmt.Println("초기값을 넣지 않으면 ?디폴트 값이 슉슉~ : ", defaultValuefloat)
 	fmt.Println("초기값을 넣지 않으면 ?디폴트값이 슉슉~ : ", isCheck)
 	fmt.Println("초기값을 넣지 않으면 ?디폴트값이 슉슉~ : ", str)
+}
